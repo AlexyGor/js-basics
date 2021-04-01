@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2-добавление_элемента_с_appendChild</title>
+</head>
+<body>
+<div>
+
+</div>
+
+<!-- Задание. Добавьте в div c помощью appendChild следующую разметку:
+<h3>hello world</h3>
+-->
+
+<script>
+    'use strict';
+    let div = document.querySelector('div');
+    let h3 = document.createElement('h3');
+    h3.innerText = 'hello world';
+    div.appendChild(h3);
+</script>
+</body>
+</html>
